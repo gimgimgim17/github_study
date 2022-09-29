@@ -42,7 +42,6 @@ export class BounceString {
         ctx.beginPath()
         ctx.fillStyle =  '#FFB200'
         //arc(x, y, r, startangle, endangle, anticlockwise)
-        // => x좌표, y좌표, 반지름, 호의 시작점, 끝점, 호를 그릴때 반시계방향으로 그릴지 여부
         ctx.arc(moveX, moveY, 30, 0, Math.PI * 2, false)
         ctx.fill()
 

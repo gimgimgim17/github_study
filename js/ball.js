@@ -25,7 +25,7 @@ export class Ball {
             this.vy *= -1;
         }
 
-        ctx.fillStyle = '#277BC0'
+        ctx.fillStyle = '#FFB200'
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.radius, 0, PI2)
         ctx.fill()
